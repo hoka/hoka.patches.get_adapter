@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.19.1'
+version = '2.13.19.2'
 
 setup(name='hoka.patches.get_adapter',
       version=version,
@@ -37,6 +37,6 @@ setup(name='hoka.patches.get_adapter',
       zip_safe=False,
       entry_points='''
 [z3c.autoinclude.plugin]
-target = Zope2
+target = zope
 ''',
 )
